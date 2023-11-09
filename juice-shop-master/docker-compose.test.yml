@@ -7,3 +7,5 @@ services:
   app:
     image: bkimminich/juice-shop:latest-amd64
     build: ./
+    ports:
+      - "juicesec:3000"
